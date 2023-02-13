@@ -13,20 +13,20 @@ public class ScoreManager : MonoBehaviour
     public void IncrementTeamAScore()
     {
         teamAScore++;
-        teamAText.text = "Team A: " + teamAScore.ToString();
+        teamAText.text = "T E A M  A: " + teamAScore.ToString();
     }
 
     public void IncrementTeamBScore()
     {
         teamBScore++;
-        teamBText.text = "Team B: " + teamBScore.ToString();
+        teamBText.text = "T E A M  B: " + teamBScore.ToString();
     }
 
     public void ResetScores()
     {
         teamAScore = 0;
         teamBScore = 0;
-        teamAText.text = "Team A: " + teamAScore.ToString();
-        teamBText.text = "Team B: " + teamBScore.ToString();
+        teamAText.text = "T E A M  A: " + teamAScore.ToString();
+        teamBText.text = "T E A M  B: " + teamBScore.ToString();
     }
 }
